@@ -32,7 +32,7 @@ EOF
 
 WITH ANSIBLE
 ============
-check sample-ansible-hosts file. there would be all you need to.
+Ansible comes installed with it. Check sample-ansible-hosts file. there would be all you need to.
 
 ```
 ansible -m setup -i hosts core-01
