@@ -1,3 +1,5 @@
+#Updated to include Ansible
+
 #!/bin/bash
 VERSIONS=${VERSIONS:-"2.7.8.10"}
 
@@ -14,3 +16,5 @@ ln -s /opt/python/bin/easy_install /opt/bin/easy_install
 ln -s /opt/python/bin/pip /opt/bin/pip
 ln -s /opt/python/bin/python /opt/bin/python
 ln -s /opt/python/bin/virtualenv /opt/bin/virtualenv
+
+sudo pip install ansible
